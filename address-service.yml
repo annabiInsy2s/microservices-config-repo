@@ -14,7 +14,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/adress_db
     username: postgres
 
-    password: insy2s
+    password: 123
 
 
 
@@ -36,3 +36,5 @@ eureka :
     client:
       serviceUrl:
         defaultZone: http://localhost:8761/
+
+message: From User Service 123
